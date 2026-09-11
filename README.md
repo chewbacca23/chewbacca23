@@ -1,10 +1,4 @@
-- 👋 Hi, I’m @chewbacca23
-- 👀 I’m interested in how things work...
-- 🌱 I’m currently learning how this stuff works :)...
-- 💞️ I’m looking to collaborate on things that work :)...
-- 📫 How to reach me on henrik@thenewsoulsearchers.de ...
+- 👋 Hi, I’m @chewbacca23 
+- 📫 How to reach me: henrik@thenewsoulsearchers.de
 
-<!---
-chewbacca23/chewbacca23  a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- see you in a jiffy :) 
