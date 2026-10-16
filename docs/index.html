@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>henrik — smiling bright</title>
+  <meta name="description" content="henrik's pages. Leave a kind note on any page. Only positive thoughts get approved.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='14' fill='%23ef9f1a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Fraunces:opsz,wght@9..144,560&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="Home">
+  <a class="skip" href="#good-thoughts">skip to the good thoughts</a>
+  <main class="wrap">
+    <header class="top">
+      <a class="brand" href="./index.html">
+        <svg class="sun" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="12" fill="#ef9f1a"/>
+          <g stroke="#ef9f1a" stroke-width="4" stroke-linecap="round">
+            <path d="M32 6v8M32 50v8M6 32h8M50 32h8M13 13l6 6M45 45l6 6M51 13l-6 6M19 45l-6 6"/>
+          </g>
+        </svg>
+        <span>
+          <span class="brand-name">henrik</span><br>
+          <span class="brand-note">smiling bright, always</span>
+        </span>
+      </a>
+      <nav aria-label="pages">
+        <a href="./index.html" aria-current="page">home</a>
+        <a href="./about.html">about</a>
+        <a href="./out-there.html">out there</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>hello, you found the sunny hallway.</h1>
+      <p class="lede">Berlin, two wheels when the weather allows, and a journal over at the soul searchers. Stay a minute. If a page feels good, the wall below is the place to say so.</p>
+      <div class="links">
+        <a class="chip" href="https://thenewsoulsearchers.de">thenewsoulsearchers.de</a>
+        <a class="chip" href="https://github.com/chewbacca23">github</a>
+        <a class="chip" href="./about.html">a little about</a>
+      </div>
+    </section>
+
+    <section class="wall" id="good-thoughts" aria-labelledby="good-thoughts-title"></section>
+  </main>
+  <script src="./good-thoughts.js"></script>
+  <script>
+    GoodThoughts.mount(document.getElementById("good-thoughts"), {
+      page: document.body.dataset.page,
+      email: "henrik@thenewsoulsearchers.de"
+    });
+  </script>
+</body>
+</html>
